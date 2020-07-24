@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+}
+.contain{
+    border-radius: 20px;
+    text-align: center; 
+}
+.head{
+    text-align: center;
+    color: #2a2f3d;
+    font-family: cursive;
+    font-size: 50px;
+}
+#date{
+    color: #2a2f3d;
+        font-family: cursive;
+    font-size:25px;
+}
+#fas{
+    color: #ff6732;
+    text-align: right;
+    border-style: none;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: #ffca00;
+}
+.clear{
+    color: #ff6732;
+    text-align: right;
+    font-size: 30px;
+    padding: 10px 10px 0 15px ;
+}
+.btn{
+color: #ffca00;
+background-color:#ff6732;
+border: none;
+margin-left: 20px;
+}
+.inp{
+    border-radius: 10px;
+    border-style: hidden;
+    background-color: #462446;
+    font-size: 30px;
+    width: 500px;
+    color: #eb6b56;
+}
+#list{
+    font-size: 25px;
+}
+#orange{
+    color: #ffca00;
+    border-radius: 20px;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    text-align: center;
+}
+
+.name1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+}
+@media only screen and (max-width: 800px) {
+    .inp {
+      width: 400px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .inp {
+      width: 300px;
+    }
+}
